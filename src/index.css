@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+/* Variables de colores globales */
+:root {
+    --color-bg: #fff;
+    --color-text: #1e293b;
+    /* azul oscuro */
+    --color-card-bg: #f8fafc;
+    --color-border: #e2e8f0;
+}
+
+.dark {
+    --color-bg: #1f2937;
+    --color-text: #f8fafc;
+    /* blanco marmolado */
+    --color-card-bg: #111827;
+    --color-border: #374151;
+}
+
+/* Body */
+body {
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    transition: background-color 0.3s, color 0.3s;
+}
